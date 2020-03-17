@@ -2,10 +2,11 @@
 <CodeLite_Workspace Name="Section4" Database="" Version="10000">
   <Project Name="Project1" Path="Project1/Project1.project" Active="No"/>
   <Project Name="Project2" Path="Project2/Project2.project" Active="No"/>
-  <Project Name="FirstProgram" Path="FirstProgram/FirstProgram.project" Active="Yes"/>
-  <Project Name="FirstProgram" Path="FirstProgram/FirstProgram.project" Active="Yes"/>
-  <Project Name="FirstProgram" Path="FirstProgram/FirstProgram.project" Active="Yes"/>
-  <Project Name="FirstProgram" Path="FirstProgram/FirstProgram.project" Active="Yes"/>
+  <Project Name="FirstProgram" Path="FirstProgram/FirstProgram.project" Active="No"/>
+  <Project Name="FirstProgram" Path="FirstProgram/FirstProgram.project" Active="No"/>
+  <Project Name="FirstProgram" Path="FirstProgram/FirstProgram.project" Active="No"/>
+  <Project Name="FirstProgram" Path="FirstProgram/FirstProgram.project" Active="No"/>
+  <Project Name="Section5" Path="Section5/Section5.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -15,6 +16,8 @@
       <Project Name="FirstProgram" ConfigName="Debug"/>
       <Project Name="FirstProgram" ConfigName="Debug"/>
       <Project Name="FirstProgram" ConfigName="Debug"/>
+      <Project Name="Section5" ConfigName="Debug"/>
+      <Project Name="Section5" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -24,6 +27,8 @@
       <Project Name="FirstProgram" ConfigName="Release"/>
       <Project Name="FirstProgram" ConfigName="Debug"/>
       <Project Name="FirstProgram" ConfigName="Release"/>
+      <Project Name="Section5" ConfigName="Release"/>
+      <Project Name="Section5" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
