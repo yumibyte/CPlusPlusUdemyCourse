@@ -11,7 +11,8 @@
     <File Name="main_app.h"/>
   </VirtualDirectory>
   <VirtualDirectory Name="src">
-    <File Name="main_app.cpp"/>
+    <File Name="GlobalVariables.cpp"/>
+    <File Name="main_app.cpp" ExcludeProjConfig="Debug;"/>
   </VirtualDirectory>
   <Settings Type="Executable">
     <GlobalSettings>

@@ -14,7 +14,7 @@ CurrentFileName        :=
 CurrentFilePath        :=
 CurrentFileFullPath    :=
 User                   :=Ashley Raigosa
-Date                   :=29/03/2020
+Date                   :=01/04/2020
 CodeLitePath           :="/Users/ashleyraigosa/Library/Application Support/CodeLite"
 LinkerName             :=/usr/bin/g++
 SharedObjectLinkerName :=/usr/bin/g++ -dynamiclib -fPIC
@@ -60,7 +60,7 @@ AS       := /usr/bin/as
 ## User defined environment variables
 ##
 CodeLiteDir:=/private/var/folders/mm/8z7b2j2s4dlfy23mm97859lc0000gn/T/AppTranslocation/CE7DC397-127E-4A24-96A4-D190CEAD0BC4/d/codelite.app/Contents/SharedSupport/
-Objects0=../build-$(ConfigurationName)/Variables/main_app.cpp$(ObjectSuffix) 
+Objects0=../build-$(ConfigurationName)/Variables/GlobalVariables.cpp$(ObjectSuffix) 
 
 
 
@@ -91,13 +91,13 @@ PreBuild:
 ##
 ## Objects
 ##
-../build-$(ConfigurationName)/Variables/main_app.cpp$(ObjectSuffix): main_app.cpp ../build-$(ConfigurationName)/Variables/main_app.cpp$(DependSuffix)
-	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/ashleyraigosa/Desktop/Programming/C++/UdemyCourse/Section6/Variables/main_app.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/main_app.cpp$(ObjectSuffix) $(IncludePath)
-../build-$(ConfigurationName)/Variables/main_app.cpp$(DependSuffix): main_app.cpp
-	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT../build-$(ConfigurationName)/Variables/main_app.cpp$(ObjectSuffix) -MF../build-$(ConfigurationName)/Variables/main_app.cpp$(DependSuffix) -MM main_app.cpp
+../build-$(ConfigurationName)/Variables/GlobalVariables.cpp$(ObjectSuffix): GlobalVariables.cpp ../build-$(ConfigurationName)/Variables/GlobalVariables.cpp$(DependSuffix)
+	$(CXX) $(IncludePCH) $(SourceSwitch) "/Users/ashleyraigosa/Desktop/Programming/C++/UdemyCourse/Section6/Variables/GlobalVariables.cpp" $(CXXFLAGS) $(ObjectSwitch)$(IntermediateDirectory)/GlobalVariables.cpp$(ObjectSuffix) $(IncludePath)
+../build-$(ConfigurationName)/Variables/GlobalVariables.cpp$(DependSuffix): GlobalVariables.cpp
+	@$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) -MG -MP -MT../build-$(ConfigurationName)/Variables/GlobalVariables.cpp$(ObjectSuffix) -MF../build-$(ConfigurationName)/Variables/GlobalVariables.cpp$(DependSuffix) -MM GlobalVariables.cpp
 
-../build-$(ConfigurationName)/Variables/main_app.cpp$(PreprocessSuffix): main_app.cpp
-	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) ../build-$(ConfigurationName)/Variables/main_app.cpp$(PreprocessSuffix) main_app.cpp
+../build-$(ConfigurationName)/Variables/GlobalVariables.cpp$(PreprocessSuffix): GlobalVariables.cpp
+	$(CXX) $(CXXFLAGS) $(IncludePCH) $(IncludePath) $(PreprocessOnlySwitch) $(OutputSwitch) ../build-$(ConfigurationName)/Variables/GlobalVariables.cpp$(PreprocessSuffix) GlobalVariables.cpp
 
 
 -include ../build-$(ConfigurationName)/Variables//*$(DependSuffix)
