@@ -3,7 +3,8 @@
   <Project Name="Variables" Path="Variables/Variables.project" Active="No"/>
   <Project Name="PrimitiveDataRypes" Path="PrimitiveDataRypes/PrimitiveDataRypes.project" Active="No"/>
   <Project Name="SizeOfOperator" Path="SizeOfOperator/SizeOfOperator.project" Active="No"/>
-  <Project Name="Constants" Path="Constants/Constants.project" Active="Yes"/>
+  <Project Name="Constants" Path="Constants/Constants.project" Active="No"/>
+  <Project Name="Section6Challenge" Path="Section6Challenge/Section6Challenge.project" Active="Yes"/>
   <BuildMatrix>
     <WorkspaceConfiguration Name="Debug" Selected="yes">
       <Environment/>
@@ -11,6 +12,7 @@
       <Project Name="PrimitiveDataRypes" ConfigName="Debug"/>
       <Project Name="SizeOfOperator" ConfigName="Debug"/>
       <Project Name="Constants" ConfigName="Debug"/>
+      <Project Name="Section6Challenge" ConfigName="Debug"/>
     </WorkspaceConfiguration>
     <WorkspaceConfiguration Name="Release" Selected="yes">
       <Environment/>
@@ -18,6 +20,7 @@
       <Project Name="PrimitiveDataRypes" ConfigName="Release"/>
       <Project Name="SizeOfOperator" ConfigName="Release"/>
       <Project Name="Constants" ConfigName="Release"/>
+      <Project Name="Section6Challenge" ConfigName="Release"/>
     </WorkspaceConfiguration>
   </BuildMatrix>
 </CodeLite_Workspace>
