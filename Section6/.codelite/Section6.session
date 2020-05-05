@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Session Name="/Users/ashleyraigosa/Desktop/Programming/C++/UdemyCourse/Section6/Section6.workspace">
-  <int Value="2" Name="m_selectedTab"/>
+  <int Value="3" Name="m_selectedTab"/>
   <wxString Value="/Users/ashleyraigosa/Desktop/Programming/C++/UdemyCourse/Section6/Section6.workspace" Name="m_workspaceName"/>
   <TabInfoArray Name="TabInfoArray">
     <TabInfo>
       <wxString Value="/Users/ashleyraigosa/Desktop/Programming/C++/UdemyCourse/Section6/PrimitiveDataRypes/main_app.cpp" Name="FileName"/>
-      <int Value="6" Name="FirstVisibleLine"/>
+      <int Value="1" Name="FirstVisibleLine"/>
       <int Value="34" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
@@ -19,8 +19,15 @@
     </TabInfo>
     <TabInfo>
       <wxString Value="/Users/ashleyraigosa/Desktop/Programming/C++/UdemyCourse/Section6/Constants/main_app.cpp" Name="FileName"/>
+      <int Value="2" Name="FirstVisibleLine"/>
+      <int Value="5" Name="CurrentLine"/>
+      <wxArrayString Name="Bookmarks"/>
+      <IntVector Name="CollapsedFolds"/>
+    </TabInfo>
+    <TabInfo>
+      <wxString Value="/Users/ashleyraigosa/Desktop/Programming/C++/UdemyCourse/Section6/Section6Challenge/main_app.cpp" Name="FileName"/>
       <int Value="0" Name="FirstVisibleLine"/>
-      <int Value="14" Name="CurrentLine"/>
+      <int Value="11" Name="CurrentLine"/>
       <wxArrayString Name="Bookmarks"/>
       <IntVector Name="CollapsedFolds"/>
     </TabInfo>
